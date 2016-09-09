@@ -1,6 +1,6 @@
 var pictionary = function() {
     var canvas, context;
-
+//function to draw the canvas
     var draw = function(position) {
         context.beginPath();
         context.arc(position.x, position.y,
